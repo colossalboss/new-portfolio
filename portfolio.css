@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: lightskyblue; */
+}
+
+#welcome-section {
+    display: grid;
+    background-color: lightgrey;
+}
+
+.wel-text {
+    text-align: center;
+    display: grid;
+    height: 70vmin;
+}
+
+nav {
+    width: 100%;
+    display: grid;
+    justify-content: end;
+    background-color: grey;
+    position: fixed;
+    top: 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px 50px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size:30px;
+}
+
+.job {
+    color: green;
+    font-size: 18px;
+}
+.wel-text div {
+    width: 30%;
+    height: 15vmin;
+    margin: auto;
+    line-height: 3px;
+}
+
+.some {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.card {
+    width: 80%;
+   display: flex;
+   padding: 5%;
+   margin: auto;
+   justify-content: space-between;
+  /* background-color: indianred; */
+}
+@media (max-width: 400px) {
+    .card {
+        padding: 0%;
+    }
+}
+
+@media (max-width: 200px) {
+    .set {
+        display: block'
+    }
+}
+
+#card div {
+    width: 40vmax;
+    /* height: 20vmin; */
+    justify-content: space-around;
+
+}
+
+.set {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+h3 {
+    border-top: 1px solid black;
+    text-align: center;
+    padding-top: 5px;
+    color: lightskyblue
+}
+
+.project-tile {
+    text-align: center;
+}
+
+.btn {
+    width: 20%;
+    margin: auto;
+}
+
+button {
+width: 98%;
+padding: 10px;
+font-size: 20px;
+cursor: pointer;
+margin: 10px;
+background-color: mediumspringgreen;
+color: white;
+}
+
+#contacts {
+    background-color: limegreen;
+   margin-top: 30px;
+    /* height: 50vmin; */
+    background: hsl(180, 50%, 90%);
+}
+
+.dlinks {
+    width: 45%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.con-link {
+    background-color: yellow;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.text {
+    text-align: center;
+    line-height: 3px;
+    padding-top: 5%;
+    margin-bottom: 100px;
+}
+
+footer {
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+    font-weight: bold;
+}
